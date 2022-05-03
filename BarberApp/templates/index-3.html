@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 	
@@ -5,17 +6,17 @@
 <head>
 		<title>Homepage 2 - Barber Shop and Salon HTML Template Demo</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/all.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/aos.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/color.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+		<link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css'%}">
+		<link rel="stylesheet" href="{% static 'assets/css/all.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.fancybox.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick-theme.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.carousel.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/aos.css'%}">
+		<link rel="stylesheet" href="{% static 'assets/css/style.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/color.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/responsive.css'%}">
 	</head>
 	<body>
 		<div class="preloader">
@@ -83,7 +84,7 @@
 		    </div>
     <!-- end container --> 
     <div class="main-logo d-flex align-items-center justify-content-between position-absolute w-100">
-    <a href="javascript:void(0)"><img src="assets/images/logo-footer.png"></a>
+    <a href="javascript:void(0)"><img src="{% static 'assets/images/logo-footer.png'%}"></a>
 		    <div class="hamburger-menu" style="transform: matrix(1, 0, 0, 1, 0, 0);">
 		        <button class="menu">
 		        <svg width="45" height="45" viewBox="0 0 100 100">
@@ -97,13 +98,13 @@
   </nav>
 		</header>
 		<section class="overlay position-relative first-header">
-			<div class="bg-image" style="background-image: url(assets/images/img-11.webp);">
+			<div class="bg-image" style="background-image: url({% static 'assets/images/img-11.webp'%});">
 			</div>
 			<div class="text-center position-relative">
 				<div class="header-text tilt">
 					<div class="position-absolute header-inner">
 				<figure>
-					<img src="assets/images/logo-barber.png" alt="header-image">
+					<img src="{% static 'assets/images/logo-barber.png'%}" alt="header-image">
 				</figure>
 				
 						<h2 class="mb-0">Giving You a legendary HairCut</h2>
@@ -114,7 +115,7 @@
 		</section>
 		<section class="gap position-relative xxl-no-bottom xl-no-bottom lg-no-bottom md-no-bottom sm-no-bottom">
 			<div class="parallax" data-aos-delay="400" data-aos="fade-right">
-				<img src="assets/images/img-15.webp" alt="parallax-image">
+				<img src="{% static 'assets/images/img-15.webp'%}" alt="parallax-image">
 			</div>
 			<div class="container">
 				
@@ -151,12 +152,12 @@
 							<span>Established 1989</span>
 							<h2>Get full Range of Extra Barber Services For your Style</h2>
 							<p>Etiam semper nibh orci, ac tincidunt mi consectetur a. In quis tortor ex. Morbi cursus sed neque quis dictum. Duis bibendum ullamcorper pharetra, Viva mus quis turpis et enim volutpat convallls.Suspendisse maximus ex at lacus feugiat commodo. Fusce iaculis odio quis massa</p>
-							<img class="img-fluid" src="assets/images/signature.webp" alt="signature-image">
+							<img class="img-fluid" src="{% static 'assets/images/signature.webp'%}" alt="signature-image">
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-12 col-sm-12">
 						<figure class="parallax-img">
-							<img class="img-fluid w-100" src="assets/images/img-98.jpg" alt="parallax-image">
+							<img class="img-fluid w-100" src="{% static 'assets/images/img-98.jpg'%}" alt="parallax-image">
 						</figure>
 					</div>
 				</div>
@@ -164,7 +165,7 @@
 		</section>
 		<section class="bg-gray gap position-relative lg-no-bottom md-no-bottom sm-no-bottom">
 			<div class="service-img">
-				<img src="assets/images/img-32.webp" alt="service-image">
+				<img src="{% static 'assets/images/img-32.webp'%}" alt="service-image">
 			</div>
 			<div class="container">
 				<div class="heading-style text-center">
@@ -180,7 +181,7 @@
 							<div class="service-prices">
 								<div class="sec-img position-relative">
 									<div class="sec-radius">
-										<a href="javascript:void(0)"><img class="img-fluid w-100" src="assets/images/img-17.webp" alt="service-image"></a>
+										<a href="javascript:void(0)"><img class="img-fluid w-100" src="{% static 'assets/images/img-17.webp'%}" alt="service-image"></a>
 									</div>
 									<span class="icon-style">$20</span>
 								</div>
@@ -194,7 +195,7 @@
 							<div class="service-prices">
 								<div class="sec-img">
 									<div class="sec-radius">
-										<a href="javascript:void(0)"><img class="img-fluid w-100" src="assets/images/img-18.webp" alt="service-image"></a>
+										<a href="javascript:void(0)"><img class="img-fluid w-100" src="{% static 'assets/images/img-18.webp'%}" alt="service-image"></a>
 									</div>
 									<span class="icon-style">$20</span>
 								</div>
@@ -208,7 +209,7 @@
 							<div class="service-prices">
 								<div class="sec-img">
 									<div class="sec-radius">
-										<a href="javascript:void(0)"><img class="img-fluid w-100" src="assets/images/img-19.webp" alt="service-image"></a>
+										<a href="javascript:void(0)"><img class="img-fluid w-100" src="{% static 'assets/images/img-19.webp'%}" alt="service-image"></a>
 									</div>
 									<span class="icon-style">$20</span>
 								</div>
@@ -222,7 +223,7 @@
 							<div class="service-prices">
 								<div class="sec-img">
 									<div class="sec-radius">
-										<a href="javascript:void(0)"><img class="img-fluid w-100" src="assets/images/img-20.webp" alt="service-image"></a>
+										<a href="javascript:void(0)"><img class="img-fluid w-100" src="{% static 'assets/images/img-20.webp'%}" alt="service-image"></a>
 									</div>
 									<span class="icon-style">$20</span>
 								</div>
@@ -237,7 +238,7 @@
 			</div>
 		</section>
 		<section class=" position-relative py-177 overlay">
-			<div class="bg-image" style="background-image: url(assets/images/img-21.webp);">
+			<div class="bg-image" style="background-image: url({% static 'assets/images/img-21.webp'%});">
 			</div>
 			<div class="heading-style-2 text-center gap no-bottom lg-no-bottom md-no-bottom sm-no-bottom">
 				<h2>GET APPOINTMENT</h2>
@@ -253,7 +254,7 @@
 							<div class="appointment-main">
 								<div class="row no-gutters">
 									<div class="col-md-6 col-lg-6 col-sm-12">
-										<img class="img-fluid w-100" src="assets/images/img-84.webp" alt="appointment-image">
+										<img class="img-fluid w-100" src="{% static 'assets/images/img-84.webp'%}" alt="appointment-image">
 									</div>
 									<div class="col-md-6 col-lg-6 col-sm-12">
 										<div class="appointment-box bg-white arrow position-relative">
@@ -277,7 +278,7 @@
 							<div class="appointment-main">
 								<div class="row no-gutters">
 									<div class="col-md-6 col-lg-6 col-sm-12">
-										<img class="img-fluid w-100" src="assets/images/img-82.webp" alt="appointment-image">
+										<img class="img-fluid w-100" src="{% static 'assets/images/img-82.webp'%}" alt="appointment-image">
 									</div>
 									<div class="col-md-6 col-lg-6 col-sm-12">
 										<div class="appointment-box bg-white arrow position-relative">
@@ -317,7 +318,7 @@
 									</div>
 									<div class="col-md-6 col-lg-6 col-sm-12">
 										<div class="arrow-2">
-											<img class="img-fluid w-100"  src="assets/images/img-81.webp" alt="appointment-image">
+											<img class="img-fluid w-100"  src="{% static 'assets/images/img-81.webp'%}" alt="appointment-image">
 										</div>
 									</div>
 								</div>
@@ -343,7 +344,7 @@
 									</div>
 									<div class="col-md-6 col-lg-6 col-sm-12">
 										<div class="arrow-2">
-											<img class="img-fluid w-100" src="assets/images/img-83.webp" alt="appointment-image">
+											<img class="img-fluid w-100" src="{% static 'assets/images/img-83.webp'%}" alt="appointment-image">
 										</div>
 									</div>
 								</div>
@@ -365,7 +366,7 @@
 				<div class="barber-slider">
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-23.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-23.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Massage Oil</a></h3>
 							<h5>$20.00</h5>
 							<div class="slider-btn">
@@ -376,7 +377,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-24.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-24.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Steel Razor</a></h3>
 							<h5>$25.00</h5>
 							<div class="slider-btn">
@@ -387,7 +388,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-22.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-22.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Facial Cream</a></h3>
 							<h5>$35.00</h5>
 							<div class="slider-btn">
@@ -398,7 +399,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/shop-images-4.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/shop-images-4.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Massage Oil</a></h3>
 							<h5>30.00</h5>
 							<div class="slider-btn">
@@ -409,7 +410,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-24.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-24.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Steel Razor</a></h3>
 							<h5>$25.00</h5>
 							<div class="slider-btn">
@@ -420,7 +421,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-22.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-22.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Facial Cream</a></h3>
 							<h5>$35.00</h5>
 							<div class="slider-btn">
@@ -432,7 +433,7 @@
 					
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-23.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-23.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Massage Oil</a></h3>
 							<h5>$30.00</h5>
 							<div class="slider-btn">
@@ -443,7 +444,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/img-24.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/img-24.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Steel Razor</a></h3>
 							<h5>$25.00</h5>
 							<div class="slider-btn">
@@ -454,7 +455,7 @@
 					</div>
 					<div class="slider-item">
 						<div class="slider-1 position-relative border text-center">
-							<img class="img-fluid" src="assets/images/shop-images-4.webp" alt="slider-image">
+							<img class="img-fluid" src="{% static 'assets/images/shop-images-4.webp'%}" alt="slider-image">
 							<h3 class="mb-0"><a href="javascript:void(0)">Massage Oil</a></h3>
 							<h5>$30.00</h5>
 							<div class="slider-btn">
@@ -480,13 +481,13 @@
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="barber-gallery">
 							<figure class="shadow-image m-0 img-hover-2">
-								<img class="img-fluid" src="assets/images/img-25.webp" alt="barber-image">
+								<img class="img-fluid" src="{% static 'assets/images/img-25.webp'%}" alt="barber-image">
 								<figcaption>
 								<div class="barber-shadow text-white text-center">
 									<h3 class="mb-0">Hair Cut + Beard</h3>
 									<span>Wash & Cut, Bear Trim</span>
 								</div>
-								<div class="shadow-icon"><a href="assets/images/img-25.webp" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
+								<div class="shadow-icon"><a href="{% static 'assets/images/img-25.webp'%}" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
 								</figcaption>
 							</figure>
 						</div>
@@ -494,13 +495,13 @@
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="barber-gallery">
 							<figure class="shadow-image m-0 img-hover-2">
-								<img class="img-fluid" src="assets/images/img-26.webp" alt="barber-image">
+								<img class="img-fluid" src="{% static 'assets/images/img-26.webp'%}" alt="barber-image">
 								<figcaption>
 								<div class="barber-shadow text-white text-center">
 									<h3 class="mb-0">Hair Cut + Beard</h3>
 									<span>Wash & Cut, Bear Trim</span>
 								</div>
-								<div  class="shadow-icon"><a href="assets/images/img-26.webp" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
+								<div  class="shadow-icon"><a href="{% static 'assets/images/img-26.webp'%}" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
 								</figcaption>
 							</figure>
 						</div>
@@ -508,13 +509,13 @@
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="barber-gallery">
 							<figure class="shadow-image m-0 img-hover-2">
-								<img class="img-fluid" src="assets/images/img-27.webp" alt="barber-image">
+								<img class="img-fluid" src="{% static 'assets/images/img-27.webp'%}" alt="barber-image">
 								<figcaption>
 								<div class="barber-shadow text-white text-center">
 									<h3 class="mb-0">Hair Cut + Beard</h3>
 									<span>Wash & Cut, Bear Trim</span>
 								</div>
-								<div class="shadow-icon"><a href="assets/images/img-27.webp" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
+								<div class="shadow-icon"><a href="{% static 'assets/images/img-27.webp'%}" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
 								</figcaption>
 							</figure>
 						</div>
@@ -522,13 +523,13 @@
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="barber-gallery">
 							<figure class="shadow-image m-0 img-hover-2">
-								<img class="img-fluid" src="assets/images/img-28.webp" alt="barber-image">
+								<img class="img-fluid" src="{% static 'assets/images/img-28.webp'%}" alt="barber-image">
 								<figcaption>
 								<div class="barber-shadow text-white text-center">
 									<h3 class="mb-0">Hair Cut + Beard</h3>
 									<span>Wash & Cut, Bear Trim</span>
 								</div>
-								<div class="shadow-icon"><a href="assets/images/img-28.webp" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
+								<div class="shadow-icon"><a href="{% static 'assets/images/img-28.webp'%}" data-fancybox="images"><svg version="1.1" viewBox="0 0 56.966 56.966" height="20" fill="white" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"> <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg></a></div>
 								</figcaption>
 							</figure>
 						</div>
@@ -563,7 +564,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="bg-image-2 position-relative gap" style="background-image: url(assets/images/img-48.webp);">
+			<div class="bg-image-2 position-relative gap" style="background-image: url({% static 'assets/images/img-48.webp'%});">
 				<div class="container">
 					<div class="heading-style-2 text-center">
 						<h2>ClIENT'S REWIE'S</h2>
@@ -577,7 +578,7 @@
 							<div class="row">
 								<div class="col-lg-3 col-sm-12 col-md-6">
 									<figure>
-										<img src="assets/images/img-29.webp" alt="client-image">
+										<img src="{% static 'assets/images/img-29.webp'%}" alt="client-image">
 									</figure>
 									<div class="barber-quote">
 										<i class="fas fa-quote-left"></i>
@@ -596,7 +597,7 @@
 							<div class="row">
 								<div class="col-lg-3 col-sm-12 col-md-12">
 									<figure>
-										<img src="assets/images/img-30.webp" alt="client-image">
+										<img src="{% static 'assets/images/img-30.webp'%}" alt="client-image">
 									</figure>
 									<div class="barber-quote">
 										<i class="fas fa-quote-left"></i>
@@ -615,7 +616,7 @@
 							<div class="row">
 								<div class="col-lg-3 col-sm-12 col-md-12">
 									<figure>
-										<img src="assets/images/testimonial-image.webp" alt="client-image">
+										<img src="{% static 'assets/images/testimonial-image.webp'%}" alt="client-image">
 									</figure>
 									<div class="barber-quote">
 										<i class="fas fa-quote-left"></i>
@@ -646,7 +647,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<figure class="img-height">
-						<img src="assets/images/blog-img.webp" alt="blog-image">
+						<img src="{% static 'assets/images/blog-img.webp'%}" alt="blog-image">
 					</figure>
 				</div>
 				<div class="col-lg-6 col-md-12">
@@ -676,7 +677,7 @@
 	</div>
 	<div class="col-lg-6 col-md-12">
 		<figure class="blog-image img-height">
-			<img class="img-fluid w-100" src="assets/images/blog-img-2.webp" alt="blog-image">
+			<img class="img-fluid w-100" src="{% static 'assets/images/blog-img-2.webp'%}" alt="blog-image">
 		</figure>
 	</div>
 </div>
@@ -690,7 +691,7 @@
 	<div class="widget">
 		<div class="wiget-content">
 			<div>
-				<a href="javascript:void(0)"><img src="assets/images/logo-footer.png" alt="blog-image"></a>
+				<a href="javascript:void(0)"><img src="{% static 'assets/images/logo-footer.png'%}" alt="blog-image"></a>
 				<P class="wiget-description mb-1">Etiam semper nibh orci, ac timcidunt mi consectetur a. In quis tortor ex. Morbi cursus sed neque quis dictum.</P>
 				<form class="footer-mail d-flex">
 					<input type="text" name="email" placeholder="Enter Your Email address">
@@ -745,15 +746,15 @@
 <div class="text-center end-area">
 <p>Copyright &copy 2021, Hair Cutter Powered by <a href="javascript:void(0)">Webinane</a></p>
 </div>
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js'%}"></script><script src="{% static 'assets/js/jquery.min.js'%}"></script>
 
-<script type="text/javascript" src="assets/js/jquery.fancybox.min.js" ></script>
-<script src="assets/js/slick.js"></script>
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/counter-js.js"></script>
-<script type="text/javascript" src="assets/js/aos.js"></script>
-<script type="text/javascript" src="assets/js/tilt.jquery.js"></script>
-<script src="assets/js/script.js"></script>
+<script type="text/javascript" src="{% static 'assets/js/jquery.fancybox.min.js'%}" ></script>
+<script src="{% static 'assets/js/slick.js'%}"></script>
+<script src="{% static 'assets/js/jquery.waypoints.min.js'%}"></script>
+<script src="{% static 'assets/js/counter-js.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/aos.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/tilt.jquery.js'%}"></script>
+<script src="{% static 'assets/js/script.js'%}"></script>
 <script type="text/javascript">
 	AOS.init({
 	duration: 800,

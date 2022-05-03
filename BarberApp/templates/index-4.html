@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 	
@@ -5,15 +6,15 @@
 <head>
 		<title>Homepage 3 - Barber Shop and Salon HTML Template Demo</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/all.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/color.css">
+		<link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css'%}">
+		<link rel="stylesheet" href="{% static 'assets/css/all.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/color.css'%}">
 		<link rel="preconnect" href="https://fonts.gstatic.com/">
-		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.fancybox.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick-theme.css'%}">
+		<link rel="stylesheet" href="{% static 'assets/css/style.css'%}">
+		<link rel="stylesheet" href="{% static 'assets/css/responsive.css'%}">
 	</head>
 	<body>
 		<div class="preloader">
@@ -54,7 +55,7 @@
 					<div class="row align-items-center">
 						<div class="col-lg-2">
 							<div class="logo">
-								<a href="javascript:void(0)"><img src="assets/images/logo.png" alt="header-image"></a>
+								<a href="javascript:void(0)"><img src="{% static 'assets/images/logo.png'%}" alt="header-image"></a>
 								<div class="navbar-toggler active">
 	                                <span></span><span></span><span></span>
 	                            </div>
@@ -220,7 +221,7 @@
 						</div>
 					<h2>BASKET (3)</h2>
 					<div class="cart-item d-flex align-items-center">
-						<img src="assets/images/image-1.webp">
+						<img src="{% static 'assets/images/image-1.webp'%}">
 						<div class="featured-area cart-1 position-relative">
 							<div class="star-rating"><span style="width:100%"></span></div>
 							<h2>Texture Tonic 100ML</h2>
@@ -235,7 +236,7 @@
 					</div>
 					<hr>
 					<div class="cart-item d-flex align-items-center">
-						<img src="assets/images/image-2.webp">
+						<img src="{% static 'assets/images/image-2.webp'%}">
 						<div class="featured-area cart-1 position-relative">
 							<div class="star-rating"><span style="width:100%"></span></div>
 							<h2>Texture Tonic 100ML</h2>
@@ -250,7 +251,7 @@
 					</div>
 					<hr>
 					<div class="cart-item d-flex align-items-center">
-						<img src="assets/images/image-3.webp">
+						<img src="{% static 'assets/images/image-3.webp'%}">
 						<div class="featured-area cart-1 position-relative">
 							<div class="star-rating"><span style="width:100%"></span></div>
 							<h2>Texture Tonic 100ML</h2>
@@ -276,7 +277,7 @@
 			<div class="row">
 				<div class="col-lg-7 col-md-12">
 					<div class="pattern-img position-relative">
-						<img src="assets/images/pattern.png">
+						<img src="{% static 'assets/images/pattern.png'%}">
 							<div class="pattern-width"></div>
 							<div class="main-content">
 								<h2>BE the Master of
@@ -288,10 +289,10 @@
 				</div>
 				<div class="col-lg-5 col-md-12">
 					<div class="position-relative inner-img-2">
-						<img class="img-fluid main-area-img" src="assets/images/img-150.webp">
+						<img class="img-fluid main-area-img" src="{% static 'assets/images/img-150.webp'%}">
 						<div class="main-area position-relative">
-							<img class="main-img img-fluid position-absolute" src="assets/images/img-148.webp">
-							<img class="position-absolute inner-logo" src="assets/images/logo-7.webp">
+							<img class="main-img img-fluid position-absolute" src="{% static 'assets/images/img-148.webp'%}">
+							<img class="position-absolute inner-logo" src="{% static 'assets/images/logo-7.webp'%}">
 						</div>
 					</div>
 				</div>
@@ -312,7 +313,7 @@
 		<div class="featured-main d-flex">
 			<div class="features-product overflow-hidden">
 				<div class="position-relative">
-					<img class="img-fluid" src="assets/images/img-116.webp" alt="product">
+					<img class="img-fluid" src="{% static 'assets/images/img-116.webp'%}" alt="product">
 					<a href="javascript:void(0)" class="button">
 						<i class="fas fa-plus"></i>
 						<span class="featured-btn">Add to basket</span>
@@ -327,7 +328,7 @@
 			</div>
 			<div class="features-product overflow-hidden">
 				<div class="position-relative">
-					<img class="img-fluid" src="assets/images/img-115.webp" alt="product">
+					<img class="img-fluid" src="{% static 'assets/images/img-115.webp'%}" alt="product">
 					<a href="javascript:void(0)" class="button">
 						<i class="fas fa-plus"></i>
 						<span class="featured-btn">Add to basket</span>
@@ -342,7 +343,7 @@
 			</div>
 			<div class="features-product overflow-hidden">
 				<div class="position-relative">
-					<img class="img-fluid" src="assets/images/img-112.webp" alt="product">
+					<img class="img-fluid" src="{% static 'assets/images/img-112.webp'%}" alt="product">
 					<a href="javascript:void(0)" class="button">
 						<i class="fas fa-plus"></i>
 						<span class="featured-btn">Add to basket</span>
@@ -357,7 +358,7 @@
 			</div>
 			<div class="features-product overflow-hidden">
 				<div class="position-relative">
-					<img class="img-fluid" src="assets/images/img-113.webp" alt="product">
+					<img class="img-fluid" src="{% static 'assets/images/img-113.webp'%}" alt="product">
 					<a href="javascript:void(0)" class="button">
 						<i class="fas fa-plus"></i>
 						<span class="featured-btn">Add to basket</span>
@@ -372,7 +373,7 @@
 			</div>
 			<div class="features-product overflow-hidden">
 				<div class="position-relative">
-					<img class="img-fluid" src="assets/images/img-114.webp" alt="product">
+					<img class="img-fluid" src="{% static 'assets/images/img-114.webp'%}" alt="product">
 					<a href="javascript:void(0)" class="button">
 						<i class="fas fa-plus"></i>
 						<span class="featured-btn">Add to basket</span>
@@ -387,7 +388,7 @@
 			</div>
 			<div class="features-product overflow-hidden">
 				<div class="position-relative">
-					<img class="img-fluid" src="assets/images/img-115.webp" alt="product">
+					<img class="img-fluid" src="{% static 'assets/images/img-115.webp'%}" alt="product">
 					<a href="javascript:void(0)" class="button">
 						<i class="fas fa-plus"></i>
 						<span class="featured-btn">Add to basket</span>
@@ -424,7 +425,7 @@
 						<p>New St Town Villos 24/x United State</p>
 					</div>
 					<figure class="mb-0 hair-fit">
-						<img class="img-fluid" src="assets/images/img-9.webp">
+						<img class="img-fluid" src="{% static 'assets/images/img-9.webp'%}">
 					</figure>
 				</div>
 				
@@ -432,7 +433,7 @@
 		</div>
 	</section>
 	<section class="position-relative overlay gap">
-		<div class="bg-image" style="background-image: url(assets/images/img-10.webp);">
+		<div class="bg-image" style="background-image: url({% static 'assets/images/img-10.webp'%});">
 		</div>
 		<div class="container">
 			<div class="heading-style-2 text-center">
@@ -515,11 +516,11 @@
 			<div class="col-lg-8 col-md-12">
 				<div class="row no-gutters ml-xxl-50">
 					<div class="col-md-6 col-sm-6">
-						<img class="img-over" src="assets/images/img-49.webp">
-						<img class="position-absolute over-logo" src="assets/images/over-logo.webp">
+						<img class="img-over" src="{% static 'assets/images/img-49.webp'%}">
+						<img class="position-absolute over-logo" src="{% static 'assets/images/over-logo.webp'%}">
 					</div>
 					<div class="col-md-6 col-sm-6">
-						<img class="img-over" src="assets/images/img-50.webp">
+						<img class="img-over" src="{% static 'assets/images/img-50.webp'%}">
 					</div>
 				</div>
 			</div>
@@ -541,7 +542,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="event-default position-relative">
 					<figure class="event-default-image">
-						<img  src="assets/images/img-51.webp" alt="">
+						<img  src="{% static 'assets/images/img-51.webp'%}" alt="">
 					</figure>
 					<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 					<div class="gallerybtn-1">
@@ -552,7 +553,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="event-default position-relative">
 					<figure class="event-default-image">
-						<img  src="assets/images/img-52.webp" alt="">
+						<img  src="{% static 'assets/images/img-52.webp'%}" alt="">
 					</figure>
 					<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 					<div class="gallerybtn-1">
@@ -565,7 +566,7 @@
 			<div class="col-lg-3 col-md-3 col-sm-12">
 				<div class="event-default position-relative">
 					<figure class="event-default-image">
-						<img  src="assets/images/img-53.webp" alt="">
+						<img  src="{% static 'assets/images/img-53.webp'%}" alt="">
 					</figure>
 					<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 					<div class="gallerybtn-1">
@@ -576,7 +577,7 @@
 			<div class="col-lg-3 col-md-3 col-sm-12">
 				<div class="event-default position-relative">
 					<figure class="event-default-image">
-						<img  src="assets/images/img-59.webp" alt="">
+						<img  src="{% static 'assets/images/img-59.webp'%}" alt="">
 					</figure>
 					<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 					<div class="gallerybtn-1">
@@ -587,7 +588,7 @@
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="event-default position-relative">
 					<figure class="event-default-image">
-						<img  src="assets/images/img-56.webp" alt="">
+						<img  src="{% static 'assets/images/img-56.webp'%}" alt="">
 					</figure>
 					<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 					<div class="gallerybtn-1">
@@ -601,7 +602,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="event-default position-relative">
 						<figure class="event-default-image">
-							<img  src="assets/images/img-56.webp" alt="">
+							<img  src="{% static 'assets/images/img-56.webp'%}" alt="">
 						</figure>
 						<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 						<div class="gallerybtn-1">
@@ -612,7 +613,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12">
 					<div class="event-default position-relative">
 						<figure class="event-default-image">
-							<img  src="assets/images/img-57.webp" alt="">
+							<img  src="{% static 'assets/images/img-57.webp'%}" alt="">
 						</figure>
 						<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 						<div class="gallerybtn-1">
@@ -623,7 +624,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12">
 					<div class="event-default position-relative">
 						<figure class="event-default-image">
-							<img  src="assets/images/img-58.webp" alt="">
+							<img  src="{% static 'assets/images/img-58.webp'%}" alt="">
 						</figure>
 						<div class="event-default-caption"><a href="javascript:void(0)" class="button button-xs button-primary theme-btn-2">BOOK NOW</a></div>
 						<div class="gallerybtn-1">
@@ -639,7 +640,7 @@
 	</div>
 </section>
 <section>
-			<div class="bg-image-2 position-relative gap" style="background-image: url(assets/images/img-48.webp);">
+			<div class="bg-image-2 position-relative gap" style="background-image: url({% static 'assets/images/img-48.webp'%});">
 				<div class="container">
 					<div class="heading-style-2 text-center">
 						<h2>ClIENT'S REWIE'S</h2>
@@ -653,7 +654,7 @@
 							<div class="row">
 								<div class="col-lg-3 col-sm-7 col-md-6">
 									<figure>
-										<img src="assets/images/img-29.webp" alt="client-image">
+										<img src="{% static 'assets/images/img-29.webp'%}" alt="client-image">
 									</figure>
 									<div class="barber-quote">
 										<i class="fas fa-quote-left"></i>
@@ -672,7 +673,7 @@
 							<div class="row">
 								<div class="col-lg-3 col-sm-7 col-md-6">
 									<figure>
-										<img src="assets/images/img-30.webp" alt="client-image">
+										<img src="{% static 'assets/images/img-30.webp'%}" alt="client-image">
 									</figure>
 									<div class="barber-quote">
 										<i class="fas fa-quote-left"></i>
@@ -691,7 +692,7 @@
 							<div class="row">
 								<div class="col-lg-3 col-sm-7 col-md-6">
 									<figure>
-										<img src="assets/images/testimonial-image.webp" alt="client-image">
+										<img src="{% static 'assets/images/testimonial-image.webp'%}" alt="client-image">
 									</figure>
 									<div class="barber-quote">
 										<i class="fas fa-quote-left"></i>
@@ -722,7 +723,7 @@
 					<div class="features-product-2">
 						<div class="features-product overflow-hidden">
 							<div class="position-relative">
-								<img class="img-fluid" src="assets/images/img-115.webp" alt="product">
+								<img class="img-fluid" src="{% static 'assets/images/img-115.webp'%}" alt="product">
 								<a href="javascript:void(0)" class="button">
 									<i class="fas fa-plus"></i>
 									<span class="featured-btn">Add to basket</span>
@@ -737,7 +738,7 @@
 						</div>
 						<div class="features-product overflow-hidden">
 							<div class="position-relative">
-								<img class="img-fluid" src="assets/images/img-112.webp" alt="product">
+								<img class="img-fluid" src="{% static 'assets/images/img-112.webp'%}" alt="product">
 								<a href="javascript:void(0)" class="button">
 									<i class="fas fa-plus"></i>
 									<span class="featured-btn">Add to basket</span>
@@ -752,7 +753,7 @@
 						</div>
 						<div class="features-product overflow-hidden">
 							<div class="position-relative">
-								<img class="img-fluid" src="assets/images/img-113.webp" alt="product">
+								<img class="img-fluid" src="{% static 'assets/images/img-113.webp'%}" alt="product">
 								<a href="javascript:void(0)" class="button">
 									<i class="fas fa-plus"></i>
 									<span class="featured-btn">Add to basket</span>
@@ -771,7 +772,7 @@
 					<div class="product-main features-product-2">
 						<div class="features-product overflow-hidden">
 							<div class="position-relative">
-								<img class="img-fluid" src="assets/images/img-114.webp" alt="product">
+								<img class="img-fluid" src="{% static 'assets/images/img-114.webp'%}" alt="product">
 								<a href="javascript:void(0)" class="button">
 									<i class="fas fa-plus"></i>
 									<span class="featured-btn">Add to basket</span>
@@ -786,7 +787,7 @@
 						</div>
 						<div class="features-product overflow-hidden">
 							<div class="position-relative">
-								<img class="img-fluid" src="assets/images/img-115.webp" alt="product">
+								<img class="img-fluid" src="{% static 'assets/images/img-115.webp'%}" alt="product">
 								<a href="javascript:void(0)" class="button">
 									<i class="fas fa-plus"></i>
 									<span class="featured-btn">Add to basket</span>
@@ -801,7 +802,7 @@
 						</div>
 						<div class="features-product overflow-hidden">
 							<div class="position-relative">
-								<img class="img-fluid" src="assets/images/img-116.webp" alt="product">
+								<img class="img-fluid" src="{% static 'assets/images/img-116.webp'%}" alt="product">
 								<a href="javascript:void(0)" class="button">
 									<i class="fas fa-plus"></i>
 									<span class="featured-btn">Add to basket</span>
@@ -826,10 +827,10 @@
 		<div class="col-lg-6 col-md-12 rightSidebar" >
 			<div class="product-img mt-lg-0 mt-md-5 theiaStickySidebar">
 				<figure>
-					<img class="img-fluid" src="assets/images/img-65.webp">
+					<img class="img-fluid" src="{% static 'assets/images/img-65.webp'%}">
 				</figure>
 				<figure>
-					<img class="img-fluid image-12" src="assets/images/img-64.webp">
+					<img class="img-fluid image-12" src="{% static 'assets/images/img-64.webp'%}">
 				</figure>
 			</div>
 		</div>
@@ -845,32 +846,32 @@
 		<ul class="d-flex container-fluid">
 			<li>
 				<div class="instagram-1 position-relative">
-					<img class="img-fluid w-100" src="assets/images/img-66.webp">
-					<a data-fancybox="gallery" href="assets/images/img-66.webp"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
+					<img class="img-fluid w-100" src="{% static 'assets/images/img-66.webp'%}">
+					<a data-fancybox="gallery" href="{% static 'assets/images/img-66.webp'%}"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
 				</div>
 			</li>
 			<li>
 				<div class="instagram-1 position-relative">
-					<img class="img-fluid w-100" src="assets/images/img-67.webp">
-					<a data-fancybox="gallery" href="assets/images/img-67.webp"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
+					<img class="img-fluid w-100" src="{% static 'assets/images/img-67.webp'%}">
+					<a data-fancybox="gallery" href="{% static 'assets/images/img-67.webp'%}"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
 				</div>
 			</li>
 			<li>
 				<div class="instagram-1 position-relative">
-					<img class="img-fluid w-100" src="assets/images/img-68.webp">
-					<a data-fancybox="gallery" href="assets/images/img-68.webp"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
+					<img class="img-fluid w-100" src="{% static 'assets/images/img-68.webp'%}">
+					<a data-fancybox="gallery" href="{% static 'assets/images/img-68.webp'%}"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
 				</div>
 			</li>
 			<li>
 				<div class="instagram-1 position-relative">
-					<img class="img-fluid w-100" src="assets/images/img-69.webp">
-					<a data-fancybox="gallery" href="assets/images/img-69.webp"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
+					<img class="img-fluid w-100" src="{% static 'assets/images/img-69.webp'%}">
+					<a data-fancybox="gallery" href="{% static 'assets/images/img-69.webp'%}"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
 				</div>
 			</li>
 			<li>
 				<div class="instagram-1 position-relative">
-					<img class="img-fluid w-100" src="assets/images/img-70.webp">
-					<a data-fancybox="gallery" href="assets/images/img-70.webp"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
+					<img class="img-fluid w-100" src="{% static 'assets/images/img-70.webp'%}">
+					<a data-fancybox="gallery" href="{% static 'assets/images/img-70.webp'%}"><svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg"><path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/></svg></a>
 				</div>
 			</li>
 		</ul>
@@ -885,7 +886,7 @@
 	<div class="widget">
 		<div class="wiget-content">
 			<div>
-				<a href="javascript:void(0)"><img src="assets/images/logo-footer.png" alt="blog-image"></a>
+				<a href="javascript:void(0)"><img src="{% static 'assets/images/logo-footer.png'%}" alt="blog-image"></a>
 				<P class="wiget-description mb-1">Etiam semper nibh orci, ac timcidunt mi consectetur a. In quis tortor ex. Morbi cursus sed neque quis dictum.</P>
 				<form class="footer-mail d-flex">
 					<input type="text" name="email" placeholder="Enter Your Email address">
@@ -1013,18 +1014,18 @@
     </div>
   </div>
 </div>
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/ResizeSensor.js"></script>
-<script type="text/javascript" src="assets/js/theia-sticky-sidebar.js"></script>
-<script  type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/slick.js"></script>
-<script type="text/javascript" src="assets/js/aos.js"></script>
-<script src="assets/js/jquery.waypoints.min.js"></script>
-<script src="assets/js/counter-js.js"></script>
-<script type="text/javascript" src="assets/js/tilt.jquery.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js'%}"></script><script type="text/javascript" src="{% static 'assets/js/jquery.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/ResizeSensor.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/theia-sticky-sidebar.js'%}"></script>
+<script  type="text/javascript" src="{% static 'assets/js/owl.carousel.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/jquery.fancybox.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/bootstrap.min.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/slick.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/aos.js'%}"></script>
+<script src="{% static 'assets/js/jquery.waypoints.min.js'%}"></script>
+<script src="{% static 'assets/js/counter-js.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/tilt.jquery.js'%}"></script>
+<script type="text/javascript" src="{% static 'assets/js/script.js'%}"></script>
 <script type="text/javascript">
 	$('.leftSidebar, .rightSidebar').theiaStickySidebar();
 

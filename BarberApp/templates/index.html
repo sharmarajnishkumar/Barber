@@ -5,8 +5,8 @@
 	<head>
 		<title>HairCutter - Barber Shop and Salon HTML Template Demo</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css'%}">
-		<link rel="stylesheet" href="{% static 'assets/css/all.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap.min.css'%}">
+		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/all.min.css'%}">
 		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick.css'%}">
 		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/slick-theme.css'%}">
 		<link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.fancybox.min.css'%}">
@@ -41,7 +41,7 @@
 							<ul class="dropdown-menu">
 								<li class="new-menu position-relative"><a href="index-2.html'%}" >Home Style 1</a></li>
 								<li><a href="{% url 'index-3' %}" >Home Style 2</a></li>
-								<li><a href="index-4.html'%}" >Home Style 3</a></li>
+								<li><a href="{% url 'index-4' %}" >Home Style 3</a></li>
 							</ul>
 						</li>
 						<li class="nav-item position-relative">
